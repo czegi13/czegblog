@@ -13,11 +13,8 @@ function App() {
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
-          
             <Route path="/create" element={<Create />}></Route>
-          
             <Route path="/blogs/:id" element={<BlogDetails />}></Route>
-          
             <Route path="*" element={<NotFound />}></Route>
           </Routes>
         </div>
