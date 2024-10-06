@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { initialData } from './Data';
 
 const Home = () => {
-  const [blogs, setBlogs] = useState(initialData);
+  const [blogs] = useState(initialData); // Csak a blogs változót használjuk
 
   return (
     <div className="home">
